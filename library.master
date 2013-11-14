@@ -12,9 +12,19 @@
 <body>
     <form id="form1" runat="server">
 
+    <div id="wrap"
+        <div id="header">
+            <div id="logo"> <img alt ="SLPL logo" src="./SLPL Logo/SLPL_logo.png" /></div>
+            <div id="title"> <h1>South Liberty Tool Rental</h1></div>
+            <div id="logo2"> <img alt ="SLPL logo 2" src="./SLPL Logo/SLPL_logo_white.png" /></div>
+        
+                    <br clear="all" />
+        
+     </div>
+
+
+
         <div id="nav">
-
-
             <asp:Menu ID="Menu1" runat="server"
                  DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Orientation="Horizontal" RenderingMode="Table"
                  StaticSubMenuIndent="10px">

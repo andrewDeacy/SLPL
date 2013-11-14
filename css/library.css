@@ -1,16 +1,11 @@
-﻿body {background-color:aqua;
+﻿body {background-color:yellow;
 }
 #nav {
     background-color: gray;
 }
 
-/*CSS for menu control*/
-.StaticMenu {
-    font-family: 'Comic Sans MS';
-    color: chocolate;
-    background-color: white;
-}
-
+/* CSS to format the ASP.NET 4 menu control */
+.StaticMenu { font-family: "Comic Sans MS"; color: #717171; background-color: #F7F6F3 !important; }
 .StaticMenu a, a:visited { color: #717171; }
 
 .DynamicHoverStyle { background-color: #717171; color:white !important; }
