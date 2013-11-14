@@ -9,20 +9,24 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="./css/library.css" />
 </head>
+ 
 <body>
     <form id="form1" runat="server">
 
     <div id="wrap"
         <div id="header">
-            <div id="logo"> <img alt ="SLPL logo" src="./SLPL Logo/SLPL_logo.png" /></div>
+            <div id="logo"> <img alt ="SLPL logo" src="http://instruct.biz.uiowa.edu/courses/6K183/6K183_group09/SLPL%20Logo/SLPL_logo.png" /></div>
             <div id="title"> <h1>South Liberty Tool Rental</h1></div>
-            <div id="logo2"> <img alt ="SLPL logo 2" src="./SLPL Logo/SLPL_logo_white.png" /></div>
+            <div id="logo2"> <img alt ="SLPL logo 2" src="http://instruct.biz.uiowa.edu/courses/6K183/6K183_group09/SLPL%20Logo/SLPL_logo_white.png" /></div>
         
                     <br clear="all" />
         
      </div>
 
-
+    <div id="menubar">
+        <div id="loginbox"> Test</div>
+        
+   
 
         <div id="nav">
             <asp:Menu ID="Menu1" runat="server"
@@ -42,9 +46,26 @@
 
 
         </div>
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     </div>
+    <div id="date">
+        <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>
+    </div>
         
+        <br clear="all" />
+
+    </div>
+        
+     <div id="main">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+         </asp:ContentPlaceHolder>   
+     </div>
+
+        <div id="footer">
+            <p>Copyright &#169; <asp:Label ID="lbl_copy" runat="server" Text="Label"></asp:Label> South Liberty Library</p>
+        </div>
+           
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
         </asp:ContentPlaceHolder>
     </div>
     </form>
