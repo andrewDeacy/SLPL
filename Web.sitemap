@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="" title="" description="">
+    <siteMapNode url="./login/login.aspx" title="Log In"  description="" />
     <siteMapNode url="./default.aspx" title="Home"  description=""></siteMapNode>
 
       <siteMapNode url="./admin/default.aspx" title="Admin"  description="" />
@@ -9,6 +10,6 @@
         
 
       <siteMapNode url="./sales/default.aspx" title="Sales"  description="" />
-    
+    <siteMapNode url="#" title="Date"  description="" />
   </siteMapNode>
 </siteMap>
