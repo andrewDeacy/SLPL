@@ -4,12 +4,12 @@
     <siteMapNode url="./login/login.aspx" title="Log In"  description="" />
     <siteMapNode url="./default.aspx" title="Home"  description=""></siteMapNode>
 
-      <siteMapNode url="./admin/default.aspx" title="Admin"  description="" />
+      <siteMapNode url="./librarian/default.aspx" title="Librarian"  description="" />
        
 
         
 
-      <siteMapNode url="./sales/default.aspx" title="Sales"  description="" />
-    <siteMapNode url="#" title="Date"  description="" />
+      <siteMapNode url="./patron/default.aspx" title="Patron"  description="" />
+   
   </siteMapNode>
 </siteMap>
