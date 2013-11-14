@@ -68,13 +68,15 @@
          </asp:ContentPlaceHolder>   
      </div>
 
-        <div id="footer">
-            <p>Copyright &#169; <asp:Label ID="lbl_copy" runat="server" Text="Label"></asp:Label> South Liberty Library</p>
-        </div>
+       
            
         <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
         </asp:ContentPlaceHolder>
-    </div>
+     <div id="footer">
+            <p>Copyright &#169; <asp:Label ID="lbl_copy" runat="server" Text="Label"></asp:Label> South Liberty Library</p>
+        </div>
+        </div>
     </form>
+
 </body>
 </html>
