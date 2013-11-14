@@ -15,9 +15,20 @@
         <div id="nav">
 
 
-            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+            <asp:Menu ID="Menu1" runat="server"
+                 DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Orientation="Horizontal" RenderingMode="Table"
+                 StaticSubMenuIndent="10px">
+                 <StaticMenuStyle CssClass="staticMenu" />
+                 <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                 <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" />
+                 <DynamicMenuStyle CssClass="DynamicMenuStyle" />
+                 <DynamicSelectedStyle CssClass="DynamicSelectedStyle" />
+                 <StaticHoverStyle CssClass="StaticHoverStyle" />
+                 <StaticMenuItemStyle CssClass="StaticMenuItemStyle" />
+                 <StaticSelectedStyle CssClass="StaticSelectedStyle" />
             </asp:Menu>
-            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
 
 
         </div>

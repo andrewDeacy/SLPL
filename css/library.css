@@ -1,2 +1,29 @@
 ﻿body {background-color:aqua;
 }
+#nav {
+    background-color: gray;
+}
+
+/*CSS for menu control*/
+.StaticMenu {
+    font-family: 'Comic Sans MS';
+    color: chocolate;
+    background-color: white;
+}
+
+.StaticMenu a, a:visited { color: #717171; }
+
+.DynamicHoverStyle { background-color: #717171; color:white !important; }
+.StaticHoverStyle { background-color: #717171 !important; color:white !important; }
+
+.DynamicMenuItemStyle { padding:5px; }
+.StaticMenuItemStyle  { padding:5px; }
+
+.DynamicMenuStyle { font-family: "Comic Sans MS"; background-color: #F7F6F3 !important; }
+.DynamicMenuStyle a, a:hover { color: #717171; }
+
+.StaticMenuStyle { background-color: #5D7B9D; }
+.StaticMenuStyle a, a:visited, a:hover {color: #717171; }
+
+.DynamicSelectedStyle { background-color: #717171 !important; color:white !important; }
+.StaticSelectedStyle { background-color: #717171 !important; color:white !important; }
