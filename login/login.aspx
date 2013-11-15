@@ -6,5 +6,6 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
     <asp:Login ID="Login1" runat="server"></asp:Login>
+    <asp:LoginStatus ID="LoginStatus1" runat="server" />
 </asp:Content>
 
