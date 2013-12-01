@@ -4,63 +4,101 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>South Liberty Public Library </title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" type="text/css" href="./css/library.css" />
-    <style type="text/css">
-        #date {
-            margin-top: 0px;
-        }
-    </style>
+    <meta name="robots" content="noindex, nofollow">
+   <meta name="description" content="BootMetro : Simple and complete web UI framework to create web apps with Windows 8 Metro user interface." />
+   <meta name="keywords" content="bootmetro, modern ui, modern-ui, metro, metroui, metro-ui, metro ui, windows 8, metro style, bootstrap, framework, web framework, css, html" />
+   <meta name="author" content="AozoraLabs by Marcello Palmitessa"/>
+   <link rel="publisher" href="https://plus.google.com/117689250782136016574">
+
+   <!-- remove or comment this line if you want to use the local fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+   <link rel="stylesheet" type="text/css" href="./assets/css/bootmetro.css">
+   <link rel="stylesheet" type="text/css" href="./assets/css/bootmetro-responsive.css">
+   <link rel="stylesheet" type="text/css" href="./assets/css/bootmetro-icons.css">
+   <link rel="stylesheet" type="text/css" href="./assets/css/bootmetro-ui-light.css">
+   <link rel="stylesheet" type="text/css" href="./assets/css/datepicker.css">
+
+   <!--  these two css are to use only for documentation -->
+   <link rel="stylesheet" type="text/css" href="./assets/css/demo.css">
+
+   <!-- Le fav and touch icons -->
+   <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/apple-touch-icon-144-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+
+       <!-- All JavaScript at the bottom, except for Modernizr and Respond.
+      Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+      For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+   <script src="./assets/js/modernizr-2.6.2.min.js"></script>
+
+   <script type="text/javascript">
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-3182578-6']);
+       _gaq.push(['_trackPageview']);
+       (function () {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+   </script>
 </head>
  
 <body>
     <form id="form1" runat="server">
 
-    <div id="wrap"
-        <div id="header">
-            <div id="logo"> <img alt ="SLPL logo" src="http://instruct.biz.uiowa.edu/courses/6K183/6K183_group09/SLPL%20Logo/SLPL_logo.png" /></div>
-            <div id="title"> <h1>South Liberty Tool Rental</h1></div>
-            <div id="logo2"> <img alt ="SLPL logo 2" src="http://instruct.biz.uiowa.edu/courses/6K183/6K183_group09/SLPL%20Logo/SLPL_logo_white.png" /></div>
-        
-                    <br clear="all" />
-        
-     </div>
+    <body>
+   <!--[if lt IE 7]>
+   <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+   <![endif]-->
 
-    <div id="menubar">
-        <div> </div>
-        
+   <div id="wrap">
    
-
-        <div id="nav">
-            <asp:Menu ID="Menu1" runat="server"
-                 DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Orientation="Horizontal" RenderingMode="Table"
-                 StaticSubMenuIndent="10px">
-                 <StaticMenuStyle CssClass="staticMenu" />
-                 <DynamicHoverStyle CssClass="DynamicHoverStyle" />
-                 <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" />
-                 <DynamicMenuStyle CssClass="DynamicMenuStyle" />
-                 <DynamicSelectedStyle CssClass="DynamicSelectedStyle" />
-                 <StaticHoverStyle CssClass="StaticHoverStyle" />
-                 <StaticMenuItemStyle CssClass="StaticMenuItemStyle" />
-                 <StaticSelectedStyle CssClass="StaticSelectedStyle" />
-            </asp:Menu>
-
-            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
-
-
-            <asp:Label ID="Label1" runat="server"></asp:Label>
-
-
-        </div>
-     </div>
-    <div id="date">
-    </div>
-        
-        <br clear="all" />
-
-    </div>
+      <!-- Header
+      ================================================== -->
+      <div id="nav-bar" class="">
+         <div class="pull-left">
+            <div id="header-container">
+               <h5>
+                   <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h5>
+               <div class="dropdown">
+                  <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#">
+                     South Liberty Public Library 
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                  <li><a href="./index.html">Home</a></li>
+                  <li class="divider"></li>
+                  <li><a href="profile.html">Profile</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Search</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Twitter</a></li>
+               </ul>
+            </div>
+            </div>
+         </div>
+         <div class="pull-right">
+            <div id="top-info" class="pull-right">
+            <a id="settings" href="#" class="win-command pull-right">
+               <span class="win-commandicon win-commandring icon-cog-3"></span>
+            </a>
+            <a id="logged-user" href="profile.html" class="win-command pull-right">
+               <span class="win-commandicon win-commandring icon-user"></span>
+            </a>
+            <div class="pull-left">
+               <h3>FirstName</h3>
+               <h4>LastName</h4>
+            </div>
+         </div>
+      </div>
+      </div>
+   
         
      <div id="main">
          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -72,7 +110,8 @@
            
         <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
         </asp:ContentPlaceHolder>
-     <div id="footer">
+     
+       <div id="footer">
             <p>Copyright &#169; <asp:Label ID="lbl_copy" runat="server" Text="Label"></asp:Label> South Liberty Library</p>
         </div>
         </div>

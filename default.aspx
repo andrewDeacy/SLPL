@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/library.master" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_default" %>
-
+﻿
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>Welcome to South Liberty Library</title>
 </asp:Content>
